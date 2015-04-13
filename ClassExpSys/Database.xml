@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Database>
+  <Attributes>
+    <A ID="0" Caption="Может лечить других" />
+    <A ID="1" Caption="Может танковать" />
+    <A ID="2" Caption="Наносит сильный урон" />
+    <A ID="3" Caption="Имеет питомца" />
+    <A ID="4" Caption="Хорошо контролирует противника" />
+    <A ID="5" Caption="Усиливает группу" />
+    <A ID="6" Caption="Носит мощную броню" />
+    <A ID="7" Caption="Выполняет разные роли" />
+    <A ID="8" Caption="Наносит дальний урон" />
+    <A ID="9" Caption="Наносит ближний урон" />
+    <A ID="10" Caption="Носит щит" />
+    <A ID="11" Caption="Расходует ману" />
+  </Attributes>
+  <Objects>
+    <O Name="Друид" Attributes="0, 1, 2, 4, 5, 6, 7, 8, 9, 11" />
+    <O Name="Паладин" Attributes="0, 1, 4, 5, 6, 7, 9, 10, 11" />
+    <O Name="Шаман" Attributes="0, 2, 6, 8, 9, 10, 11" />
+    <O Name="Жрец" Attributes="0, 4, 5, 8, 11" />
+    <O Name="Рыцарь смерти" Attributes="1, 2, 3, 6, 9" />
+    <O Name="Воин" Attributes="1, 2, 6, 9, 10" />
+    <O Name="Колдун" Attributes="2, 3, 4, 8, 11" />
+    <O Name="Охотник" Attributes="2, 3, 8, 11" />
+    <O Name="Маг" Attributes="2, 4, 5, 8, 11" />
+    <O Name="Разбойник" Attributes="2, 4, 9" />
+  </Objects>
+</Database>
